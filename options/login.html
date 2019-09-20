@@ -1,0 +1,79 @@
+<html>
+
+<!--
+	HTML page that works as the main login page for the options panel, web page navigation is driven by
+	event listeners as google Chrome extensions cannot have inline Javascript to drive page navigation.
+
+	User PIN credentials have already been declared and initialized when the extension was first installed,
+	The PIN used to login is stored permanently on the Chrome.storage API Using it's Sync Feature.
+	The PIN is deleted if the extension is uninstalled and reinstalled for ease of implementation
+	and/or migration to a new network. 
+-->
+
+	<head>
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="menu.css" />
+		<script src="login.js"></script>
+		<title>Work Place Filter</title>
+
+	</head>
+
+	<body>
+
+	<div id="Nwrap">
+		
+		<div id="Nheader">
+
+			<div id="Ntitle">
+				<h1>
+					<a>
+					</a>
+				</h1>
+			</div>
+			
+			<div id="Nmenu" class="menu">
+				<br>
+					<ul>
+					</ul>
+				<br style="clear: left" />
+			</div>
+			
+		</div> 
+		
+			<br>
+			
+			<div class="loginDiv">
+			
+				<div class="loginPar">
+					Please enter the Administrator PIN to access settings
+				</div>
+				
+				<div class="loginPar">
+					<input type="password" id="PINEntry" name="PINEntry" class="pwfield" placeholder="Enter Administrator PIN">
+				</div>
+				
+				<div class="loginParButton">
+					<button id="logButton" class="buttonAnimLog">
+						Login
+					</button>
+				</div>
+				
+			</div>   
+			
+			<div class="cleaner">
+			</div>
+			 
+		</div>  
+		
+	</div> 
+
+	<div class="cleaner">
+	</div>
+	 
+	<div id="footer">
+	</div>
+
+	</body>
+
+</html>

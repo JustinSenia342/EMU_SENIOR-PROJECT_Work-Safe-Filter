@@ -1,0 +1,138 @@
+<html>
+
+<!--
+An HTML page that list a great number of different website that take up a lot of time
+in the workplace, the admin can toggle these options on and off with a series of switches
+located on the admin panel.
+These values are saved to the cloud via chrome's storage api, so it can be accessed by the main
+javascript file running in the background.
+-->
+
+<head>
+
+<script src="options.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="menu.css" />
+
+<!-- ADDITIONAL CSS CODE (DO NOT REMOVE - JESSE) -->
+<style>
+	
+div.pos{
+   position: fixed;
+   left: 15%;
+}
+	
+div.pos2{
+   position: fixed;
+   left: 25%;
+}
+
+</style>
+
+<!-- END OF ADDITIONAL CSS CODE (DO NOT REMOVE - JESSE) -->
+
+	<!-- CALLING IN CSS -->
+	<link href="styleP.css" rel="stylesheet" type="text/css" />
+	<link href="toggle.css" rel="stylesheet" type="text/css" />
+	<!-- CALL IS OVER AND OUT -->
+	
+	<title>Work Place Filter</title>
+
+</head>
+
+<body>
+
+<!-- CSS INT. BEGIN -->
+<div id="Nwrap">
+	
+    <div id="Nheader">
+
+        <div id="Ntitle"><h1><a href="#"></a></h1></div>
+            
+			
+        </div> 
+    </div> 
+			
+	<!-- Start Description/Ad -->	
+	
+	<div class="pos2">
+	
+	<div class="Tbox Ncol Nspace">
+        <img src="images/img03.jpg" alt="image" />
+		<p>Yellow=Block, Grey=Allowed</p>
+    </div>
+	
+	<br>
+	
+	<div class="pos">
+		
+		<!-- on = website is being blocked, off = website blocking is off -->
+		
+	<table style="width:100%" border="0">
+		<tr>
+			<td> Facebook <input type="checkbox" id="FACEBOOK" /><label for="FACEBOOK">Facebook</label></td>
+			<td> Tumblr <input type="checkbox" id="TUMBLR" /><label for="TUMBLR">Tumblr</label> </td>
+			<td> Ebay <input type="checkbox" id="EBAY" /><label for="EBAY">Ebay</label> </td>
+		</tr> <tr>
+			<td> Youtube <input type="checkbox" id="YOUTUBE" /><label for="YOUTUBE">Youtube</label> </td>
+			<td> Amazon <input type="checkbox" id="AMAZON" /><label for="AMAZON">Amazon</label></td>
+			<td> Reddit <input type="checkbox" id="REDDIT" /><label for="REDDIT">Reddit</label></td>
+		</tr> <tr>
+			<td> Craigslist <input type="checkbox" id="CRAIGSLIST" /><label for="CRAIGSLIST">Craigslist</label></td>
+			<td> Twitter <input type="checkbox" id="TWITTER" /><label for="TWITTER">Twitter</label></td>
+			<td> Zillow <input type="checkbox" id="ZILLOW" /><label for="ZILLOW">Zillow</label></td>
+		</tr> <tr>
+			<td> Myspace <input type="checkbox" id="MYSPACE" /><label for="MYSPACE">Myspace</label></td>
+			<td> Vimeo <input type="checkbox" id="VIMEO" /><label for="VIMEO">Vimeo</label></td>
+			<td> Metacafe <input type="checkbox" id="METACAFE" /><label for="METACAFE">Metacafe</label></td>
+		</tr> <tr>
+			<td> Veoh <input type="checkbox" id="VEOH" /><label for="VEOH">Veoh</label></td>
+			<td> Hulu <input type="checkbox" id="HULU" /><label for="HULU">Hulu</label></td>
+			<td> Crackle <input type="checkbox" id="CRACKLE" /><label for="CRACKLE">Crackle</label></td>
+		</tr> <tr>
+			<td> Netflix <input type="checkbox" id="NETFLIX" /><label for="NETFLIX">Netflix</label></td>
+			<td> Screen Junkies <input type="checkbox" id="SCREENJUNKIES" /><label for="SCREENJUNKIES">Screen Junkies</label></td>
+			<td> Gag <input type="checkbox" id="NINEGAG" /><label for="NINEGAG">9Gag</label></td>
+		</tr> <tr>
+			<td> Internet Archive <input type="checkbox" id="INTERNETARCHIVE" /><label for="INTERNETARCHIVE">Internet Archive</label></td>
+			<td> Open Video Project <input type="checkbox" id="OPENVIDEOPROJECT" /><label for="OPENVIDEOPROJECT">Open Video Project</label></td>
+			<td> Pinterest <input type="checkbox" id="PINTEREST" /><label for="PINTEREST">pinterest</label></td>
+		</tr>
+			<td> Overstock <input type="checkbox" id="OVERSTOCK" /><label for="OVERSTOCK">overstock</label></td>
+			<!--<td> <a id="saveButton">Save</a> </td>-->
+			<td colspan="2"> <button id="saveButton" class="buttonAnim">Save</button> </td>
+	</table>
+		
+	</div>
+	
+</div>
+
+		
+		<!-- Begin Javascript -->
+		<script language="javascript">
+
+		function val(form)
+		{
+			<!-- Possible integration start point -->
+			
+			window.location.replace("index.html");
+			
+			<!-- Possible integration end point -->
+			
+			
+			
+			<!-- Do Not Remove! - Jesse -->
+			window.close();
+			<!-- End of do not remove - Jesse -->
+		}
+
+		</script>
+		<!-- End Javascript -->
+       
+	</div> 
+    
+</div> 
+<!-- CSS INT. "END" -->
+
+</body>
+</html>

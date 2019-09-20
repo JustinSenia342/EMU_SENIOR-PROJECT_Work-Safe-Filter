@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: "Calibri";
+	font-size: 13px;
+	line-height: 1.0em; 
+	background-color: #f1f1f1;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/body.jpg);
+}
+
+a, a:link, a:visited { color: #EBEBEB; font-weight: lighter; text-decoration: none }
+a:hover { text-decoration: none; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { color: #09c2d3; font-weight: normal; }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 30px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 24px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+
+#Nwrap {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#Nheader {
+	height: 55px;
+	width: 960px;
+}
+
+#Nmain {
+	clear: both;
+	width: 960px;
+	padding: 20px 0;
+}
+
+#footer {
+	line-height: 1.4em;
+    width: 100%;
+    height: 50px;
+    background: url('images/bottom.jpg') repeat-x;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	position: fixed;
+}
+
+#Ntitle { 
+	float: left 
+}
+
+#Ntitle h1 { 
+	margin: 0; 
+	padding: 0 
+}
+
+#Ntitle h1 a { 
+	display: block; 
+	width: 180px; 
+	height: 10px; 
+	padding: 40px 10px 0 0; 
+	color: #000; 
+	font-size: 14px; 
+	text-align: right; 
+	background: url(images/logo.png) no-repeat left center 
+}
+
+#Nmenu { float: right; width: 562px; height: 46px; }
+
+.Ncol h2 { font-size: 14px; color: #09c2d3; font-weight: 700; border-bottom: 1px dotted #ccc }
+.Nbox { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee }
+.Nbox img { float: left; border: 1px solid #e3e1e1; padding: 4px; margin-right: 10px }
+.Nbox p { font-size: 10px }
+.Nspace { width: 220px }
+
+.col { float: left; margin: 0 20px 20px 0 }
+.half { width: 460px }
+.no_margin_right { margin-right: 0 }
+
+.loginDiv {
+	display: block;
+	position: relative;
+	height: 90px;
+	Margin: 20%;
+	padding: 10px 10px;
+	background-color: #333333; 
+	background: #333333;
+	background-position: top;
+}
+
+.pinSetDiv {
+	display: block;
+	position: relative;
+	height: 140px;
+	Margin: 20%;
+	padding: 10px 10px;
+	background-color: #333333; 
+	background: #333333;
+	background-position: top;
+}
+
+.loginPar {
+	display: block;
+	text-align: center;
+	padding: 4px 15%;
+	color: white;
+	font-weight: bold;
+}
+
+.loginParButton {
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 4px 21%;
+	color: white;
+	font-weight: bold;
+}
+
+.pwfield {
+	width: 300px;
+}
+
+.buttonAnim {
+    position: relative;
+    background-color: #333333;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 2px;
+	top: 3px;
+    width: 210px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonAnim:after {
+    content: "";
+    background: #FF0000;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttonAnim:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+	
+.buttonAnimLog {
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    color: #333333;
+    padding: 2px;
+	top: 3px;
+    width: 210px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonAnimLog:after {
+    content: "";
+    background: #FF0000;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttonAnimLog:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+button: focus {outline:0;}

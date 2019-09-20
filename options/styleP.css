@@ -1,0 +1,117 @@
+html {
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em; 
+	background-color: #f1f1f1;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/body.jpg);
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0;
+}
+
+
+h2 { 
+	font-size: 30px; 
+	margin: 0 0 40px; 
+	padding: 5px 0;
+	color: #09c2d3; 
+	font-weight: normal; 
+}
+
+#Nwrap {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#Nheader {
+	height: 55px;
+	width: 960px;
+}
+
+#Nmain {
+	clear: both;
+	width: 960px;
+	padding: 20px 0;
+}
+
+#Ntitle { 
+	float: left 
+}
+
+#Ntitle h1 { 
+	margin: 0; 
+	padding: 0 
+}
+
+#Ntitle h1 a { 
+	display: block; 
+	width: 180px; 
+	height: 10px; 
+	padding: 40px 10px 0 0; 
+	color: #000; 
+	font-size: 14px; 
+	text-align: right; 
+	background: url(images/logo.png) no-repeat left center 
+}
+
+.Ncol h2 { 
+	font-size: 14px; 
+	color: #09c2d3; 
+	font-weight: 700; 
+	border-bottom: 1px dotted #ccc 
+}
+
+.Nbox { 
+	padding-bottom: 25px; 
+	margin-bottom: 20px; 
+	border-bottom: 1px solid #eee 
+}
+
+.Nbox img { 
+	float: left; 
+	border: 1px solid #e3e1e1; 
+	padding: 4px; 
+	margin-right: 10px 
+}
+
+.Nbox p { 
+	font-size: 10px 
+}
+
+.Nspace { 
+	width: 230px 
+}
+
+.post {
+	clear: both;
+	margin-bottom: 60px;
+}
+
+.post img { 
+margin-bottom: 10px 
+}
+
+.post h2.home { 
+	color: #ba8c00; 
+	font-size: 18px; 
+	margin-bottom: 0;  
+}
+.post h2 { 
+	margin-bottom: 0;
+	line-height: 38px; 
+	margin-bottom: 10px 
+}
+

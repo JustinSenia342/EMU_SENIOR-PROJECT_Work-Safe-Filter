@@ -1,0 +1,57 @@
+<html>
+
+<!--
+This is the initial webpage the installing admin is directed to so they can
+set their pin which will allow them access to the administration panel later.
+they are then redirected to the login site after they are done creating the pin,
+this redirect and all javascript is done through a series of event listeners
+as chrome extensions wont allow inline javascript.
+-->
+
+<head>
+
+	<!-- -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="menu.css" />
+	<script src="pinSet.js"></script>
+	<title>Work Place Filter</title>
+
+</head>
+
+<body>
+
+<div id="Nwrap">
+	
+    <div id="Nheader">
+
+        <div id="Ntitle"><h1><a></a></h1></div>
+        <div id="Nmenu" class="menu">
+		<br>
+            <ul>
+            </ul>
+            <br style="clear: left" />
+        </div> 
+    </div> 
+    
+        <br>
+        
+        <div class="pinSetDiv">
+			<div class="loginPar">Please enter an 8+ character PIN to set as the Administrator password   </div>
+			<div class="loginPar"><input type="password" id="PINActual" name="PINActual" class="pwfield" placeholder="Enter Administrator PIN   "></div>
+			<div class="loginPar">Please re-enter your PIN to set the Administrator password</div>
+			<div class="loginPar"><input type="password" id="PINVerify" name="PINVerify" class="pwfield" placeholder="Re-Enter Administrator PIN"></div>
+			<div class="loginParButton"><button id="createPinButton" class="buttonAnimLog">Create</button></div>
+        </div>   
+		
+		 <div class="cleaner"></div>
+		 
+	</div>  
+    
+</div> 
+
+ <div class="cleaner"></div>
+ 
+<div id="footer"></div>
+
+</body>
+</html>

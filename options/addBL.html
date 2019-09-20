@@ -1,0 +1,122 @@
+<html>
+
+<!--
+	Originally planned to be an in-between webpage for adding items to the blacklist.
+	Plans for this implementation are currently suspended. 
+-->
+
+<head>
+
+<!-- ADDITIONAL CSS CODE (DO NOT REMOVE - JESSE) -->
+<style>
+	.insert {
+		position: fixed;
+		top: 40%;
+		left: 25%;
+		padding: 10px;
+	}
+
+	.insert input[type=text] {
+		width: 250px;
+		height: 30px;
+		color: #272b2b;
+		font-family: 'Exo', sans-serif;
+		font-size: 16px;
+		font-weight: 400;padding: 4px;
+		border: 1px solid #272b2b;
+	}
+	
+	.insert input[type=button] {
+		width: 250px;
+		height: 30px;
+		background: #272b2b;
+		border: 1px solid #000;
+		cursor: pointer;
+		border-radius: 2px;
+		color: #000;
+		font-family: 'Exo', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		padding: 6px;
+		margin-top: 10px;
+	}
+	
+	div.pos{
+    position: fixed;
+    left: 28%;
+}
+	
+</style>
+<!-- END OF ADDITIONAL CSS CODE (DO NOT REMOVE - JESSE) -->
+
+	<!-- CALLING IN CSS -->
+	<link href="styleP.css" rel="stylesheet" type="text/css" />
+	<!-- CALL IS OVER AND OUT -->
+	
+	<title>Work Place Filter</title>
+
+</head>
+
+<body>
+
+<!-- CSS INT. BEGIN -->
+<div id="Nwrap">
+	
+    <div id="Nheader">
+
+        <div id="Ntitle"><h1><a href="#"></a></h1></div>
+            
+			
+        </div> 
+    </div> 
+			
+			<!-- Random Breaks (DO NOT REMOVE/EDIT - JESSE) -->
+			<br> <br> <br> <br>
+			
+	<!-- Start Description/Ad -->	
+	<div class="pos">
+		
+		<div class="Nbox col Nspace">
+           	<img src="images/img02.jpg" alt="image" />
+				<p>Protect the company's integrity by inserting additional websites to the Blacklist. </p>
+        </div>
+		
+	</div>
+	<!-- End Description/Ad -->	
+		
+		<form name="insert">
+		<div class="insert">
+				<input type="text" placeholder="Website's URL" name="username"><br>
+				<input type="button" onclick="val(this.form)" value="Insert"/>
+		</div>
+        </form>
+		<!-- End of Button -->
+		
+		<!-- Begin Javascript -->
+		<script language="javascript">
+
+		function val(form)
+		{
+			<!-- Possible integration start point -->
+			
+			window.location.replace("index.html");
+			
+			<!-- Possible integration end point -->
+			
+			
+			
+			<!-- Do Not Remove! - Jesse -->
+			window.close();
+			<!-- End of do not remove - Jesse -->
+		}
+
+		</script>
+		<!-- End Javascript -->
+       
+	</div> 
+    
+</div> 
+<!-- CSS INT. "END" -->
+
+</body>
+</html>

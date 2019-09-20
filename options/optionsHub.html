@@ -1,0 +1,52 @@
+<html>
+
+<!--
+	This webpage essentially acts as a hub, it has an event listener attached
+	to it, so that it will initially redirect to the webpage to create a PIN.
+	after a pin has been successfully created, it will redirect to the login 
+	page from that point on, it does this by checking the value of a variable
+	stored on the cloud with the google storage API
+-->
+
+<head>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="menu.css" />
+	<script src="optionsHub.js"></script>
+	<title>Work Place Filter</title>
+
+</head>
+
+<body>
+
+<div id="Nwrap">
+	
+    <div id="Nheader">
+
+        <div id="Ntitle"><h1><a></a></h1></div>
+        <div id="Nmenu" class="menu">
+		<br>
+            <ul>
+            </ul>
+            <br style="clear: left" />
+        </div> 
+    </div> 
+    
+        <br>
+        
+        <div id="redirectHub">
+			
+        </div>   
+		
+		 <div class="cleaner"></div>
+		 
+	</div>  
+    
+</div> 
+
+ <div class="cleaner"></div>
+ 
+<div id="footer"></div>
+
+</body>
+</html>
